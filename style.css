@@ -48,7 +48,9 @@ header h1{
     border-radius: 8px;
     padding: 8px 12px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
 }
+
 
 .btn-section .analyze {
     color: #e8d9de;
@@ -57,6 +59,10 @@ header h1{
 
 .btn-section .analyze:focus {
     color: #2f2f2f2f;
+    background-color: #e8d9de;
+}
+.btn-section .analyze.active {
+        color: #2f2f2f2f;
     background-color: #e8d9de;
 }
 
@@ -70,6 +76,12 @@ header h1{
     background-color: #dceddb;
 }
 
+
+.btn-section .diplomacy.active {
+        color: #2f2f2f2f;
+    background-color: #dceddb;
+}
+
 .btn-section .admin {
     color: #cce7de;
     border: 1px solid #cce7de; 
@@ -80,6 +92,11 @@ header h1{
     background-color: #cce7de;
 }
 
+.btn-section .admin.active {
+        color: #2f2f2f2f;
+    background-color: #cce7de;
+}
+
 .btn-section .explorer {
     color: #f8e9c0;
     border: 1px solid #f8e9c0; 
@@ -87,6 +104,11 @@ header h1{
 
 .btn-section .explorer:focus {
     color: #2f2f2f2f;
+    background-color: #f8e9c0;
+}
+
+.btn-section .explorer.active {
+        color: #2f2f2f2f;
     background-color: #f8e9c0;
 }
 
@@ -125,3 +147,7 @@ header h1{
    font-size: 14px;
 }
 
+.desc-section ul ls {
+    line-height: 1.5;
+
+}
